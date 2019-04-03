@@ -6,7 +6,7 @@ public class TestModel {
 
 	public static void main(String[] args) {
 		
-		Parola p = new Parola("telefono");
+		Parola p = new Parola("eat");
 		System.out.println("Parola da anagrammare: " + p.toString());
 		
 		Model model = new Model();

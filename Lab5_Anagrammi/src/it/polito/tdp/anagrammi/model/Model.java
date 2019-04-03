@@ -21,9 +21,7 @@ public class Model {
 		// System.out.println(parziale.toString());
 		
 		if(l == daAnagrammare.getSize()) {
-			if(parziale.isCorrect()) {
-				soluzione.add(new Parola(parziale));
-			}
+			soluzione.add(new Parola(parziale));
 			return;
 		}
 		
